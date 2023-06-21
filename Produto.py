@@ -1,8 +1,7 @@
 class Produto():
-    def __init__(self) -> None:
-        self.produtos_cadastrados = []
-        
-    def cadastrar_produto (self, produto):
-        self.produtos_cadastrados.append(produto)
-        return "Produto cadastrado com sucesso"
-        
+    def __init__(self, nome, quantidade, tipo, departamento, preco):
+        self.nome = nome 
+        self.quantidade = quantidade
+        self.tipo = tipo
+        self.departamento = departamento
+        self.preco = preco
