@@ -1,5 +1,5 @@
 Realizar um sistema de um site de vendas de produtos de hardware e software.
-cadastro de produtos
+cadastro de produtos --
 preço de produtos
 soma de preço de produtos 
 calculador de desconto
